@@ -85,7 +85,7 @@ string decimaltobinary(int decimal){
         for (int i = 4; i < 8; ++i) {
             binary_adjust += binary[i];//add the rest back on
         }
-        return binary_adjust;
+        return b;
     } 
 }
     
